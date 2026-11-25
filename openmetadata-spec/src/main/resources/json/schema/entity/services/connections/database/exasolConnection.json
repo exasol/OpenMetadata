@@ -100,6 +100,21 @@
     },
     "supportsLineageExtraction": {
       "$ref": "../connectionBasicType.json#/definitions/supportsLineageExtraction"
+    },
+    "supportsDBTExtraction": {
+      "$ref": "../connectionBasicType.json#/definitions/supportsDBTExtraction"
+    },
+    "supportsProfiler": {
+      "title": "Supports Profiler",
+      "$ref": "../connectionBasicType.json#/definitions/supportsProfiler"
+    },
+    "supportsQueryComment": {
+      "title": "Supports Query Comment",
+      "$ref": "../connectionBasicType.json#/definitions/supportsQueryComment"
+    },
+    "supportsSystemProfile": {
+      "title": "Supports System Profile",
+      "$ref": "../connectionBasicType.json#/definitions/supportsSystemProfile"
     }
   },
   "additionalProperties": false,
